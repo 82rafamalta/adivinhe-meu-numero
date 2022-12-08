@@ -88,11 +88,15 @@ h1 {
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
-  padding: 2.5rem;
-  width: 80%;
+  padding: 2rem;
+  width: 95%;
   text-align: center;
   display: block;
   margin-bottom: 3rem;
+}
+
+.guess::placeholder {
+  font-size: 1rem;
 }
 
 .btn {
@@ -154,28 +158,12 @@ h1 {
   .guess {
     font-size: 4rem;
     padding: 2rem;
-    width: 25rem;
+    width: 90%;
     margin-bottom: 3rem;
   }
 }
 
-@media (max-width: 75em) {
-  html {
-    /* 9px / 16px  */
-    font-size: 56.25%;
-  }
-
-  h1 {
-    font-size: 2.6rem;
-    margin-top: 8rem;
-  }
-}
-
 @media (max-width: 59em) {
-  html {
-    font-size: 56.25%;
-  }
-
   h1 {
     font-size: 3.2rem;
     margin-top: 8rem;
@@ -197,14 +185,19 @@ h1 {
   .guess {
     font-size: 3.2rem;
     padding: 2rem;
-    width: 22rem;
+    width: 90%;
     margin-bottom: 2.4rem;
   }
 }
 
 @media (max-width: 44em) {
-  html {
-    font-size: 56.25%;
+  header {
+    height: 28vh;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+    margin-top: 8rem;
   }
 
   main {
@@ -219,7 +212,7 @@ h1 {
   .guess {
     font-size: 2.4rem;
     padding: 2rem;
-    width: 100%;
+    width: 90%;
     margin-bottom: 2.4rem;
   }
 
@@ -231,13 +224,12 @@ h1 {
 
 @media (max-width: 34em) {
   header {
-    height: 26vh;
+    height: 25vh;
   }
 
   h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 1.2;
-    padding: 1rem;
     margin-top: 7rem;
   }
 
@@ -269,7 +261,7 @@ h1 {
   }
 
   .guess {
-    width: 60%;
+    width: 80%;
   }
 
   .message {
@@ -294,14 +286,14 @@ h1 {
 
 @media (max-width: 22em) {
   header {
-    height: 21vh;
+    height: 23vh;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.4;
     padding: 1rem;
-    margin: 9rem 0;
+    margin: 7rem 0;
   }
 
   .number {
@@ -332,7 +324,7 @@ h1 {
   }
 
   .guess {
-    width: 60%;
+    width: 80%;
   }
 
   .message {
