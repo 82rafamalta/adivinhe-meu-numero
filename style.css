@@ -230,20 +230,61 @@ h1 {
 }
 
 @media (max-width: 34em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
-    font-size: 50%;
+  header {
+    height: 26vh;
   }
 
   h1 {
     font-size: 2.4rem;
     line-height: 1.4;
     padding: 1rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
+  }
+
+  .number {
+    font-size: 3.6rem;
+    width: 15rem;
+    padding: 3rem 0rem;
   }
 
   main {
-    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 1.4rem;
+    margin-bottom: 5rem;
+  }
+
+  .left,
+  .right {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+
+  .right {
+    gap: 1.4rem;
+  }
+
+  .guess {
+    width: 60%;
+  }
+
+  .message {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+
+  .rule {
+    margin: 0;
+  }
+
+  .check {
+    font-size: 2rem;
+    padding: 2rem 3.4rem;
   }
 }
 
